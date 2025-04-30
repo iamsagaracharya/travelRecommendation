@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("background_image.jpg");
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  .search-container {
+    display: flex;
+    gap: 10px;
+  }
+  .search-container input[type="text"] {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  .search-container button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .search-btn {
+    background-color: #2abff5;
+    color: white;
+  }
+  .clear-btn {
+    background-color: #2abff5;
+    color: white;
+  }
+
+  .input-icon-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 250px; /* Set a width for the input+icon block */
+  }
+  
+  .input-icon-wrapper input {
+    width: 100%;
+    padding: 8px 30px 8px 10px; /* right padding for icon space */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .icon-right {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    pointer-events: none;
+  }
+
+  #introduction {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translateY(-50%);
+    width: 500px; /* or whatever width suits your content */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    
+  }
+  #introduction h2 {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+  }
+  #introduction p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: black;
+  }
+
+  .social-icons {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column; /* Stack icons vertically */
+    gap: 15px;              /* Space between icons */
+    padding: 20px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #0077cc; /* you can use brand colors or custom ones */
+  }
+  #member_block {
+    position: absolute;
+    top:50%;
+    left: 25%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(135, 184, 226);
+    border-radius: 30px;
+  }
+  #member_block h2 {
+    margin: 0;
+    font-size: 24px;
+    color: black;
+    position: relative;
+    top: 50%;
+    padding-left: 20px;
+
+    
+  }
+  .team_member{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(188, 222, 241);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+#teams{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(210, 241, 247);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.position{
+    width:auto;
+    flex: 1;
+    text-align: center;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    font-size: 14px;
+    margin-left: 10px;
+
+}
+.result-card {
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 600px;
+  background: #f9f9f9;
+}
+.result-card img {
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin-bottom: 10px;
+}
